@@ -10,6 +10,27 @@
             </list>
           </settings>
         </remote-mappings>
+        <remote-mappings server-id="python@docker://dj-mt-vbloise:latest/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/usr/src/deepjanus" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@docker://dj-mt-vbloise:1.0/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/usr/src/deepjanus" />
+            </list>
+          </settings>
+        </remote-mappings>
+        <remote-mappings server-id="python@docker://dj-mt-vbloise:1.0.1/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/usr/src/deepjanus" />
+            </list>
+          </settings>
+        </remote-mappings>
       </list>
     </list>
   </component>
